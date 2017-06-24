@@ -20,6 +20,8 @@ import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { MyEventsPage } from '../pages/my-events/my-events';
+import firebase from 'firebase'
 
 import { Api } from '../providers/api';
 import { Items } from '../mocks/providers/items';
@@ -30,6 +32,7 @@ import { Camera } from '@ionic-native/camera';
 import { GoogleMaps } from '@ionic-native/google-maps';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { Facebook } from '@ionic-native/facebook'
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -39,6 +42,18 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 export function HttpLoaderFactory(http: Http) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
+
+var config = {
+    apiKey: "AIzaSyD6yGDqq6uvrIxBqdq0_p-9HlwCoNRjRU4",
+    authDomain: "fellow-4737d.firebaseapp.com",
+    databaseURL: "https://fellow-4737d.firebaseio.com",
+    projectId: "fellow-4737d",
+    storageBucket: "fellow-4737d.appspot.com",
+    messagingSenderId: "940836946671"
+  };
+  firebase.initializeApp(config);
+
+
 
 export function provideSettings(storage: Storage) {
   /**
@@ -71,7 +86,8 @@ export function provideSettings(storage: Storage) {
     SignupPage,
     TabsPage,
     TutorialPage,
-    WelcomePage
+    WelcomePage,
+	MyEventsPage
   ],
   imports: [
     BrowserModule,
@@ -102,13 +118,15 @@ export function provideSettings(storage: Storage) {
     SignupPage,
     TabsPage,
     TutorialPage,
-    WelcomePage
+    WelcomePage,
+	MyEventsPage
   ],
   providers: [
     Api,
     Items,
     User,
     Camera,
+	Facebook,
     GoogleMaps,
     SplashScreen,
     StatusBar,

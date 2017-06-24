@@ -1,0 +1,51 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-browsertab": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-buildinfo": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1278853512213065",
+            "APP_NAME": "fellowapp",
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-universal-links-plugin": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.groovesoftware.fellowapp"
+        }
+    }
+}

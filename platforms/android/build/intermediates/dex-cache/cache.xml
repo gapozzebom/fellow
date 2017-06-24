@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_617fd747c5eef690caf185ccfa25f87363b704aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7ded753b5664e68e94a3f7ef65a9fb1e054d601f">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_3eab9b0e7c42b04f8e5751e580e608b1488f38d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="558551c52773a6842f7d36baabf9ca5337220340">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-6.2.3-release_680aec040c18352561be9a136d4fccaadcd17abc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_3a08bd26c51905779a92d6d0cb3dcca7a733a7d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_6f2af4d45b7cc0a5986216d2cd040fa7b2639bb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_4400d78dbcce81fc2ca0247e5045091e5aeb7fe5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_c65945e8b4e27482e34501bcd8fbbc36f737aae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_c2d3a5039a1a2c41c29f6624a8ffe406b5fffc35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8cb1dcf68d89b3835f6b8620276bad0ce2e75a94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_a3150388ba9da791de1392b2eae4f6508888d83c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_b8be5144022e8fb2366e72814320a8797abb6dae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_f929a52a738f187016dbb716cd1666198630e37c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_ecad1a31cae43a435826df7394354d35857fc9eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.23.0_7336c25680393c07efe5dd80e0af46241e6a6ddd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_cfc19c2703009f593b8da9373fa9fb90c7f638fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_4528990989ba7d2b6c23f7956b463dd5ef9b9d1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/gabriel/Área de Trabalho/Fellow/fellow/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_e612da536b29396f08977c6b2846fc9980dd9cbd.jar" />
+    </item>
+
+</items>

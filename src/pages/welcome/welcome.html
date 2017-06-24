@@ -1,13 +1,15 @@
-<ion-content scroll="false">
-  <div class="splash-bg"></div>
-  <div class="splash-info">
-    <div class="splash-logo"></div>
-    <div class="splash-intro">
-      {{ 'WELCOME_INTRO' | translate }}
-    </div>
-  </div>
-  <div padding>
-    <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button>
-    <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button>
-  </div>
+<ion-content  padding scroll="false" >
+	<div class="spacer" style="width: 300px; height: 25px;"></div>
+	<div>
+		<img src="assets/img/fyHsnJRnQim2jCEDWTiI_button_fellow.png" style="display: block; width: 90%; height: auto; margin-left: auto; margin-right: auto;">
+	</div>
+	<div class="spacer" style="width: 300px; height: 20px;"></div>
+	<div padding id="welcome-markdown1" class="show-list-numbers-and-dots">
+		<p style="color:#000000;font-size:18px;">    Don't go alone.
+			<strong>Go with Fellow!</strong>
+		</p>
+	</div>
+	<div padding>
+		<button ion-button block color="primary"  (click)="doLogin()" block> Log in with Facebook</button>
+	</div>
 </ion-content>

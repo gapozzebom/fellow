@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { MenuController, NavController } from 'ionic-angular';
+import { Facebook, FacebookLoginResponse } from '@ionic-native/facebook';
+import Firebase from 'firebase'
 
-import { LoginPage } from '../login/login';
-import { SignupPage } from '../signup/signup';
+import { TabsPage } from '../tabs/tabs';
 
 /**
  * The Welcome Page is a splash page that quickly describes the app,
@@ -16,13 +17,52 @@ import { SignupPage } from '../signup/signup';
 })
 export class WelcomePage {
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, public menu: MenuController, private fb:Facebook) { }
+	userProfile: any = null;
+  doLogin(){
 
-  login() {
-    this.navCtrl.push(LoginPage);
+
+	  this.fb.login(["email"]).then((loginResponse) => {
+
+			let credential = firebase.auth.FacebookAuthProvider.credential(loginResponse.authResponse.accessToken);
+
+		  	firebase.auth().signInWithCredential(credential).then((info) => {
+				alert(JSON.stringify(info));
+			})
+	  })
+/*
+	  this.fb.login(['email']).then( (response) => {
+	   const facebookCredential = firebase.auth.FacebookAuthProvider
+		   .credential(response.authResponse.accessToken);
+
+	   firebase.auth().signInWithCredential(facebookCredential)
+	   .then((success) => {
+		   console.log("Firebase success: " + JSON.stringify(success));
+		   this.userProfile = success;
+	   })
+	   .catch((error) => {
+		   console.log("Firebase failure: " + JSON.stringify(error));
+	   });
+
+   }).catch((error) => { console.log(error) });
+
+
+	  this.fb.login(["email"])
+	  .then((res: FacebookLoginResponse) => console.log('Logged into Facebook!', res))
+	  .catch(e => console.log('Error logging into Facebook', e));
+*/
+
+	  this.navCtrl.setRoot(TabsPage);
   }
 
-  signup() {
-    this.navCtrl.push(SignupPage);
+  ionViewDidEnter() {
+    // the root left menu should be disabled on the tutorial page
+    this.menu.enable(false);
   }
+
+  ionViewWillLeave() {
+    // enable the root left menu when leaving the tutorial page
+    //this.menu.enable(true);
+  }
+
 }
